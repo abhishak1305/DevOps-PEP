@@ -2,10 +2,10 @@
 
 When creating the environment for the first time:
 
-cd /d
-mkdir vagrant
-cd vagrant
-mkdir ubuntu
+1) cd /d
+2) mkdir vagrant
+3) cd vagrant
+4) mkdir ubuntu
 cd ubuntu
 vagrant init ubuntu/jammy64
 vagrant up
@@ -15,6 +15,7 @@ vagrant ssh
 
 Step 1 — Go to the drive
 cd /d
+
 Step 2 — Go to the Vagrant folder
 cd vagrant
 Step 3 — Go to the Ubuntu project folder
