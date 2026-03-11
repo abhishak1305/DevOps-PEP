@@ -17,4 +17,4 @@
 15) cat ops.txt
 16) free -m >> ops.txt
 17) cat ops.txt
-18)** Try this example** : echo "Start of file >> ops.txt then use echo "Start of file > ops.txt"
+18)**Try this example**: echo "Start of file >> ops.txt then use echo "Start of file > ops.txt"
