@@ -13,16 +13,15 @@ When creating the environment for the first time:
 
     Below is the complete command sequence from the beginning after opening Git Bash.
 
-1) — Go to the drive : cd /d
+    1) — Go to the drive : cd /d
 
-2) — Go to the Vagrant folder : cd vagrant
-3) — Go to the Ubuntu project folder : cd ubuntu
-4) — Start the virtual machine : vagrant up
+    2) — Go to the Vagrant folder : cd vagrant
+    3) — Go to the Ubuntu project folder : cd ubuntu
+    4) — Start the virtual machine : vagrant up
 
 Wait until the VM starts.
 
-Step 5 — Login to the Ubuntu VM
-vagrant ssh
+5) — Login to the Ubuntu VM : vagrant ssh
 
 You will then see something like:
 
@@ -30,18 +29,18 @@ vagrant@ubuntu-jammy:~$
 
 Now you are inside Ubuntu.
 
-Step 6 — Run Linux commands (example)
+6) — Run Linux commands (example)
 ls
 
 or
 
 uname -a
-Step 7 — Exit the VM
+7) — Exit the VM
 exit
 
 This returns you to Git Bash.
 
-Step 8 — Stop the VM when finished
+8) — Stop the VM when finished
 vagrant halt
 
     Learn a few basic Linux commands
