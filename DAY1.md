@@ -6,22 +6,18 @@ When creating the environment for the first time:
 2) mkdir vagrant
 3) cd vagrant
 4) mkdir ubuntu
-cd ubuntu
-vagrant init ubuntu/jammy64
-vagrant up
-vagrant ssh
+5) cd ubuntu
+6) vagrant init ubuntu/jammy64
+7) vagrant up
+8) vagrant ssh
 
     Below is the complete command sequence from the beginning after opening Git Bash.
 
-Step 1 — Go to the drive
-cd /d
+1) — Go to the drive : cd /d
 
-Step 2 — Go to the Vagrant folder
-cd vagrant
-Step 3 — Go to the Ubuntu project folder
-cd ubuntu
-Step 4 — Start the virtual machine
-vagrant up
+2) — Go to the Vagrant folder : cd vagrant
+3) — Go to the Ubuntu project folder : cd ubuntu
+4) — Start the virtual machine : vagrant up
 
 Wait until the VM starts.
 
