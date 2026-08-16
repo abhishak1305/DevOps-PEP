@@ -39,3 +39,45 @@ print(ans)
 
 output: 5,abhi,12
 ```
+## 4. ASCII, stoi, itos
+
+```python
+# =========================
+# ASCII
+# =========================
+
+# Character -> ASCII value
+ch = "a"
+ascii_value = ord(ch)
+
+print("ASCII of", ch, "=", ascii_value)
+
+# ASCII value -> Character
+ascii_value = 97
+ch = chr(ascii_value)
+
+print("Character of", ascii_value, "=", ch)
+
+
+# =========================
+# stoi (string -> integer)
+# =========================
+
+s = "123"
+num = int(s)
+
+print("String:", s)
+print("Integer:", num)
+print("Type:", type(num))
+
+
+# =========================
+# itos / to_string (integer -> string)
+# =========================
+
+num = 456
+s = str(num)
+
+print("Integer:", num)
+print("String:", s)
+print("Type:", type(s))
