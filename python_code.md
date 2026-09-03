@@ -232,6 +232,13 @@ freq = {}
 for x in s:
     freq[x] = freq.get(x, 0) + 1
 
+    #----------------OR---------------
+
+    if x in freq:
+            freq[x] += 1;
+        else:
+            freq[x] = 1;
+
 # max_key = max(freq, key=freq.get)
 # print(max_key, freq[max_key])
 
