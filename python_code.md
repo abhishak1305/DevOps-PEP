@@ -17,6 +17,7 @@ status = "Adult" if age >= 18 else "Minor"
 
 print(temp , status)
 ```
+
 ## 3. function
 
 ```python
@@ -219,4 +220,25 @@ obj.__repr__()
 obj.__len__()
 obj.__iter__()
 obj.__next__()
+```
+
+## 6. Maximum frequency:
+
+```python
+s = "programming"
+
+freq = {}
+
+for x in s:
+    freq[x] = freq.get(x, 0) + 1
+
+# max_key = max(freq, key=freq.get)
+# print(max_key, freq[max_key])
+
+# To print all characters with maximum frequency:
+max_freq = max(freq.values())
+
+for key, value in freq.items():
+    if value == max_freq:
+        print(key, value)
 ```
